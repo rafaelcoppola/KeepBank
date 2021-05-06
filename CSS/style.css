@@ -15,6 +15,12 @@ a {
 p {
     font-family: 'Montserrat', sans-serif;
 }
+mark {
+	color: #46d886;
+	font-weight: 700;
+	background-color: transparent;
+    padding-right: 15px
+}
 .hero {
     background-image:linear-gradient(to right, rgb(76 98 115 / 89%), rgb(255 255 255 / 0%) 50%), url('../Imagens/Banner.jpg');
     background-position: center;
@@ -53,11 +59,12 @@ p {
     background-color: #11db88;
     border-radius: 7px;
 }
-.container {    
+.middle-container {    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    height: 100vh;
 }
 .content {
     margin-top: 120px;
@@ -128,4 +135,49 @@ p {
     font-size: 28px;
     color: #203342;
     margin-left: 20px;
+}
+.services-container {    
+    background-color: #203342;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+.image-services {
+    padding: 40px 50px 0px 0px;
+}
+.texts-machine-card {
+    color: white;
+    display: flex;
+    width: 700px;
+    flex-direction: column;
+}
+.title-machine-card h3 {
+    font-family: 'Proxima Nova Extrabold' , sans-serif;
+    font-size: 48px;
+    font-weight: 1000px;
+    line-height: 3rem;
+    margin-bottom: 30px;
+    border-left: 8px solid #46d886;
+    padding-left: 40px;
+}
+.title-machine-card p {
+    font-size: 17px;
+    margin-bottom: 30px;
+    padding-left: 50px;
+    text-align: left;
+    width: 400px;
+}
+.several-services {
+    display: flex;
+    width: 1000px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 50px;
+}
+
+.several-services p {
+    width: 500px;
+    line-height: 2rem;
 }
