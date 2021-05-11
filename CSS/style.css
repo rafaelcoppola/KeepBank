@@ -176,8 +176,50 @@ mark {
     flex-wrap: wrap;
     padding-left: 50px;
 }
-
 .several-services p {
     width: 500px;
     line-height: 2rem;
 }
+.digital-bank-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.digital-bank-title{
+    font-family: 'Montserrat';
+    color: #203342;
+    margin-top: 90px;
+    font-size: 48px;
+}
+.digital-bank-figures {
+    display: grid;
+    grid-template-columns: repeat(4,280px);
+    justify-items: center;
+    grid-gap: 80px 65px;
+    padding-top: 80px;
+    padding-bottom: 170px;
+}
+.digital-bank-figures p {
+    color: #203342;
+}
+.digital-bank-figures img {
+    width: 110px;
+}
+.about-app-container {
+    background-image: url('../Imagens/background-about.png');
+    background-size: contain;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.about-app-figures {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    
