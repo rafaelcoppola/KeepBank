@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick-theme.css"/>    
-    <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick/slick.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick/slick-theme.scss" media="screen">
+    <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick/slick-theme.css"/> 
+    <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick/slick-theme.scss" media="screen">   
+    <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick/slick.css" media="screen">    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" type="text/css" href="./WOW-master/css/libs/animate.css" media="screen">     
     <link rel="stylesheet" type="text/css" href="./CSS/style.css" media="screen">
@@ -16,20 +15,20 @@
 <body>   
     <section class="hero">             
         <div class="container-hero">                
-            <nav class="header">
+            <header class="header">
                 <div class="menu">
-                    <a href="">INÍCIO</a>
-                    <a href="">SOBRE NÓS</a>
-                    <a href="">VANTAGENS</a>
-                    <a href="">O APP</a>
-                    <a href="">FEED BACK</a>
+                    <a href="#">INÍCIO</a>
+                    <a href="#sobrenós">SOBRE NÓS</a>
+                    <a href="#vantagens">VANTAGENS</a>
+                    <a href="#oapp">O APP</a>
+                    <a href="#feedback">FEED BACK</a>
                     <a href="">FALE CONOSCO</a>
                 </div>                
-            </nav>                              
+            </header>                              
         </div>                                   
     </section>
     <section class="middle">
-        <div class="middle-container">
+        <div class="middle-container" id="sobrenós" >
             <div class="content">
                 <div class="celphone wow pulse">
                    <img src="./Imagens/Celular.png" alt="">
@@ -69,7 +68,7 @@
             </div>            
         </div>
         <section class="services">
-            <div class="services-container">
+            <div class="services-container" id="vantagens">
                 <div class="image-services wow pulse " data-wow-offset="800">
                     <img src="./Imagens/Maquininha-de-cartao.png" alt="">
                 </div>            
@@ -89,7 +88,7 @@
                 </div>
             </div>    
         </section>
-        <section class="digital-bank">
+        <section class="digital-bank" >
             <div class="digital-bank-container">
                 <div class="digital-bank-title wow fadeInDownBig">
                     <h1><strong>O Banco Digital do Sul de Minas</strong></h1>
@@ -162,45 +161,47 @@
                 </div>                  
             </div>
         </section>
-        <section class="about-app">
+        <section class="about-app" id="oapp">
             <div class="about-app-container">
                <div class="about-app-title">
-                   <p>Keep Bank, simples e digital.</p>
-                   <h3><strong>Baixe Nosso App</strong></h3>
+                   <p class="wow fadeIn" data-wow-delay="0.5s">Keep Bank, simples e digital.</p>
+                   <h3 class="wow fadeIn" data-wow-delay="1s"><strong>Baixe Nosso App</strong></h3>
                </div>
                <div class="about-app-figures">
-                    <div class="query">
-                        <figure>
-                            <img src="./Imagens/lista.png" alt="">
-                        </figure>
-                        <figcaption>
-                            <p>CONSULTAS</p>
-                        </figcaption>
-                    </div>
-                    <div class="transfer">
-                        <figure>
-                            <img src="./Imagens/transferencia.png" alt="">
-                        </figure>
-                        <figcaption>
-                            <p>TRANSFERÊNCIA</p>
-                        </figcaption>
-                    </div>
-                    <div class="payments">
-                        <figure>
-                            <img src="./Imagens/Pagamentos.png" alt="">
-                        </figure>
-                        <figcaption>
-                            <p>PAGAMENTOS</p>
-                        </figcaption>
-                    </div>
-                    <div class="generate-tickets">
-                        <figure>
-                            <img src="./Imagens/Boletos.png" alt="">
-                        </figure>
-                        <figcaption>
-                            <p>GERAR BOLETO</p>
-                        </figcaption>
-                        <div class="cards">
+                   <div class="about-app-content">
+                        <div class="query wow fadeInLeftBig" data-wow-delay="1.3s">
+                            <figure>
+                                <img src="./Imagens/lista.png" alt="">
+                            </figure>
+                            <figcaption>
+                                <p>CONSULTAS</p>
+                            </figcaption>
+                        </div>
+                        <div class="transfer-app wow fadeInLeftBig" data-wow-delay="1.6s">
+                            <figure>
+                                <img src="./Imagens/transferencia.png" alt="">
+                            </figure>
+                            <figcaption>
+                                <p>TRANSFERÊNCIA</p>
+                            </figcaption>
+                        </div>
+                        <div class="payments-app wow fadeInLeftBig" data-wow-delay="1.9s">
+                            <figure>
+                                <img src="./Imagens/Pagamentos.png" alt="">
+                            </figure>
+                            <figcaption>
+                                <p>PAGAMENTOS</p>
+                            </figcaption>
+                        </div>
+                        <div class="generate-tickets wow fadeInLeftBig" data-wow-delay="2.2s">
+                            <figure>
+                                <img src="./Imagens/Boletos.png" alt="">
+                            </figure>
+                            <figcaption>
+                                <p>GERAR BOLETO</p>
+                            </figcaption>
+                        </div>
+                        <div class="cards wow fadeInLeftBig" data-wow-delay="2.5s">
                             <figure>
                                 <img src="./Imagens/cartao-de-debito.png" alt="">
                             </figure>
@@ -208,15 +209,54 @@
                                 <p>CARTÕES</p>
                             </figcaption>
                         </div>
-                    </div>
+                    </div>    
                     <div class="text-about">
                         <p><mark>Sobre o App</mark><br>O aplicativo foi desenvolvido para atender todas as necessidades de nossos clientes, de maneira simples, eficaz e segura.<br>Você poderá controlar seus gastos, transferências, pagamentos e emissão de boletos a hora q quiser.</p>                   
+                        <div class="downloads">
+                            <a href="https://play.google.com" target="_blank"><img src="./Imagens/google-play.png" alt=""></a>
+                            <a href="https://www.apple.com/app-store/" target="_blank"><img src="./Imagens/appstore.png" alt=""></a>
+                        </div>  
+                    </div>                                      
+                </div>                                             
+            </div>
+        </section>
+        <section class="feedback" id="feedback">
+            <div class="feedback-container">
+                <div class="feedback-text">
+                    <div class="feedback-title-logo">
+                        <div class="feedback-title">
+                            <h2 class=" wow fadeIn" data-wow-delay="0.5s">Feedback de Clientes</h2>
+                            <p class=" wow fadeIn" data-wow-delay="1s">A sua experiencia é de extrema importância para nós</p>
+                        </div>
+                        <div class="feedback-logo">
+                            <img src="./Imagens/ceg-logo.png" alt="CEG - Soluçoes Financeiras">
+                        </div>
                     </div>
-                    <div class="downloads">
-                        <a href="https://play.google.com" target="_blank"><img src="./Imagens/google-play.png" alt=""></a>
-                        <a href="https://www.apple.com/app-store/" target="_blank"><img src="./Imagens/appstore.png" alt=""></a>
+                    <div class="feedback-slider-text">
+                        <div class="feedback-carousel">
+                            <div class="feedback-text-carousel">
+                                <p><mark id="quotation-marks">&#8220;</mark>Me tornei cliente e não me arrependo, estava cansado das burocracias das agências tradicionais! O aplicativo é ótimo e super facil de mexer. EU RECOMENDO"</p>
+                                <span id="clients"><strong>Cláudio,</strong>Cliente Keep Bank</span>
+                            </div>
+                            <div class="feedback-text-carousel">
+                                <p><mark id="quotation-marks">&#8220;</mark>Nam placerat metus viverra libero placerat, et rutrum nulla das burocracias das agências tradicionais! O aplicativo é ótimo e super facil de mexer. EU RECOMENDO"</p>
+                                <span id="clients"><strong>Marcelo,</strong>Cliente Keep Bank</span>
+                            </div>
+                            <div class="feedback-text-carousel">
+                                <p><mark id="quotation-marks">&#8220;</mark>Me tornei cliente e não me arrependo, estava cansado das burocracias das agências tradicionais! O aplicativo é ótimo e super facil de mexer. EU RECOMENDO"</p>
+                                <span id="clients"><strong>Bianca,</strong>Cliente Keep Bank</span>
+                            </div>
+                        </div>
+                    </div>                                  
+                </div>
+                <div class="feedback-images">
+                    <div class="feedback-celphone">
+                        <img src="./Imagens/meio-celular.png" alt="">
                     </div>
-               </div>               
+                    <div class="feedback-balon">
+                        <img src="./Imagens/balao.png" alt="">
+                    </div>
+                </div> 
             </div>
         </section>
     </section>
