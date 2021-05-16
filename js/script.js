@@ -13,46 +13,14 @@
 $('.feedback-carousel').slick()*/
 
 //animation WOW
-new WOW().init();
+wow = new WOW(
+  {
+  boxClass:     'wow',      // default
+  animateClass: 'animated', // default
+  offset:       1,          // default
+  mobile:       true,       // default
+  live:         true        // default
+}
+)
+wow.init();
 
-$('.feedback-carousel').slick({
-    dots: false,
-    arrows: true,
-    infinite: true,
-    fade: true,
-    autoplay: true,
-    autoplayspeed: 2300,
-    speed: 300,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    adaptiveHeight: false,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: false
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
-    ]
-  });
-  $('.feedback-carousel').slick()
