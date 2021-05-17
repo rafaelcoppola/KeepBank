@@ -18,15 +18,26 @@ mark {
     background-image:linear-gradient(to right, rgb(76 98 115 / 89%), rgb(255 255 255 / 0%) 50%), url('../Imagens/Banner.jpg');
     background-position: center;
     background-size: cover;
+}
+.carousel-caption {
+    bottom: 400px;
+    right: 1100px;
+    text-align: start;
+}
+.carousel-caption h2 {
+    font-family: 'Proxima Nova Regular' , sans-serif;
+    font-size: 30px;
+    color: white;
+}
+.w-100{
     height: 100vh;
 }
 .navbar-nav {
     font-family: 'Montserrat', sans-serif;
-    display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-    padding-top: 15px;
+    
+}
+.navbar-toggler  {
+    background-color: #46d886;
 }
 .nav-link {
     margin-left: 2rem; 
@@ -138,7 +149,6 @@ mark {
     text-align: left;
     color: white;
 }
-
 .several-services p {
     line-height: 2rem;
     color: white;
@@ -196,4 +206,76 @@ mark {
     font-family: 'Montserrat' ,sans-serif;
     color: #203342;
     font-size: 17px;
+}
+.about-app {
+    background-image: url('../Imagens/background-about.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.about-app-title {
+    margin-top: 300px;
+}
+.about-app-title p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: white;
+    padding-left: 41px;
+}
+.about-app-title h3 {
+    font-family: 'Montserrat Bold', sans-serif;
+    font-size: 40px;
+    color: #46d886;
+}
+.text-figures {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    margin-top: 110px;
+}
+.text-about p {
+    color: white;
+}
+.downloads img {
+    margin-bottom: 10px;
+}
+.about-app-figures img {
+    width: 70px;
+}
+.about-app-figures p {
+    font-family: 'Proxima Nova Bold', sans-serif;
+    padding-left: 25px;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+}
+.query {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 50px;
+}
+.transfer-app {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 50px;
+}
+.payments-app {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 50px;
+}
+.generate-tickets {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 50px;
+}
+.cards {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 50px;
 }
