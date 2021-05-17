@@ -249,33 +249,37 @@ mark {
     font-size: 13px;
     font-weight: 600;
 }
+.about-app-content {
+    padding-right: 50px;
+}
 .query {
     display: flex;
     align-items: center;
     flex-direction: row;
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .transfer-app {
     display: flex;
     align-items: center;
     flex-direction: row;
-    padding: 50px;
+    padding-bottom: 50px;
 }
 .payments-app {
     display: flex;
     align-items: center;
     flex-direction: row;
-    padding: 50px;
+    padding-bottom: 50px;
 }
 .generate-tickets {
     display: flex;
     align-items: center;
     flex-direction: row;
-    padding: 50px;
+    padding-bottom: 50px;
 }
 .cards {
     display: flex;
     align-items: center;
     flex-direction: row;
-    padding: 50px;
+
 }
